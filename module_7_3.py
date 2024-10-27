@@ -7,7 +7,7 @@ class WordsFinder:
 
     def get_all_words(self):
         all_words = {}
-        punctuations = [',', '.', '=', '!', '?', ';', ':', ' - ', '\n', ' — ']
+        punctuations = [',', '.', '=', '!', '?', ';', ':', ' - ', '\n']
 
         for doc in self.file_names:
             all_words[doc] = []
